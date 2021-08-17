@@ -16,7 +16,30 @@
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
     </head>
+
     <body>
+
+    <div class="wrapper">
+
+    <div class="nav">
+        <nav class="navbar">
+
+            <ul class="navbar-ul">
+
+                <li class="navbar-li">
+                    <a class="navbar-link" href="{{path('bio')}}">About</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="navbar-link" href="{{path('realisations')}}">Projects</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="navbar-link" href="{{path('contact')}}">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
         {% block body %}{% endblock %}
     </body>
+    
 </html>
