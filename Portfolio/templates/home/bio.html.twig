@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio Charlie Bauduin{% endblock %}
+
+{% block body %}
+
+<a href="{{path("home")}}"><button>retour</button></a>
+
+
+<div class="wrapper-about">
+
+    <div class="left-part">
+        <h1>Welcome on my website</h1>
+
+
+        <p>Hello World ! <br/> 
+        I'm Charlie, I'm a young web back end developper.<br/>
+
+        Well-organised person, passionate and really motivate and I'm looking for my first experience<br/>
+        Fan of Sport, Poker, Chess and travel<br/>
+
+        Specialized on Symfony due to my formation, I also train on Javascript vanilla and React.<br/>
+
+        I hope you'll like my different side projects. <br/>
+
+        Don't hesitate to <a href="{{path('contact')}}">contact me</a>!
+        </p>
+
+    </div>
+
+    <div class="rigth-part">
+
+        <ul class="skills-list">
+
+            <li>HTML</li>
+            <li>CSSS</li>
+            <li>PHP</li>
+            <li>Javascript</li>
+            <li>Symfony</li>
+            <li>Wordpress</li>
+            <li>GIT</li>
+            <li>AWS</li>
+            <li>API</li>
+            <li>bootstrap</li>
+
+        </ul>
+
+    </div>
+
+</div>
+{% endblock %}
