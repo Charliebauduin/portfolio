@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="../public/css/reset.css" rel="stylesheet">
         <link href="../public/css/style.css" rel="stylesheet">
 
         {# Run `composer require symfony/webpack-encore-bundle`
@@ -26,6 +26,9 @@
 
             <ul class="navbar-ul">
 
+                <li class="navbar-li-home">
+                    <a class="navbar-link" href="{{path('home')}}"><img class="picto-home" src="../public/assets/home.png" alt="home-picto"></a>
+                </li>
                 <li class="navbar-li">
                     <a class="navbar-link" href="{{path('bio')}}">About</a>
                 </li>
