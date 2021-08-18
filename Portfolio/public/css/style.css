@@ -10,8 +10,10 @@ background-repeat: no-repeat;
 
 .navbar {
     width: 95%;
+    padding-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
+    
 }
 
 .navbar a{
@@ -108,24 +110,37 @@ p{
     color: white;
 }
 
+.skills-slider img{
+    width:20%;
+}
+
+
 .wrapper-about{
+    margin-top: 5em;
     display: flex;
     width: 100%;
+    
 }
 
 .left-part{
     display: flex;
-    width: 50%;
+    width: 70%;
     padding:2em;
     margin-left: 2em;
-    background-color: rgba(142, 145, 152, 0.5);
+    background-color:rgba(16, 11, 15, 0.5)
+    
     
 }
 
 .right-part{
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
     text-align: center;
+    margin-right: 2em;
+    background-color: rgba(142, 145, 152, 0.5);
+    
 }
 
 .left-part p{
