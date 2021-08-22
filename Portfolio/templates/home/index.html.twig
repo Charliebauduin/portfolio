@@ -81,9 +81,43 @@
 
     <div class="skills">
 
-    <h1>Mes Compétences</h1>
+        <div class="skills-title">
+        
+            <h1>Mes Compétences</h1>
+        
+        </div>
+    
+        <div class="skills-left-part">
+        
+            <ul class="skills-list">
 
-        <div class="right-part">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>API</li>
+                <li>Symfony</li>
+                <li>Doctrine</li>
+
+
+
+            </ul>
+
+            <ul class="skills-list2">
+            
+                <li>Twig</li>
+                <li>Javascript</li>
+                <li>GIT</li>
+                <li>Wordpress</li>
+                <li>AWS</li>
+                <li>Agile Method</li>
+                
+            
+            </ul>
+        
+        </div>
+
+
+        <div class="skills-right-part">
 
             <h1>Skills</h1>
 
@@ -106,22 +140,33 @@
 
     <div class="projects"> 
 
-        <div class="card" style="width: 18rem;">
+        <div class="project-title">
+        
+            <h1>Mes Projets</h1>
+        
+        </div>
+
+        {% for i in 0..3 %}
+
+        <div class="project-card">
 
             <img class="card-img-top" src="../public/assets/projet.png" alt="Card image cap">
 
         
 
-            <div class="card-body">
+            <div class="project-card-body">
 
-                <h5 class="card-title">Card title</h5>
+                <h2 class="-projet-name">Projet {{i}}</h2>
 
-                <p class="card-text">Projet Lorem Ipsum </p>
+                <p class="project-description">Ce projet est une projet blablabla lorem lorem lorem lorem lorem lorem lorem </p>
                 <a href="#" class="btn btn-primary">voir le code</a>
             
             </div>
 
         </div>
+        {% endfor %}
+    
+        
 
     </div>
 

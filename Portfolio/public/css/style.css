@@ -1,8 +1,11 @@
 /* ====================================== WRAPPER PART ============================================================*/
-
-.wrapper{
+html {
 
     background-color: #525659;
+
+}
+.wrapper{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,6 +64,14 @@
     width: 25%;
     margin-left: 1em;
     margin-bottom: 2em;
+    margin-right: 2em;
+
+}
+
+.parcours-left-part img {
+
+    width: 100%;
+
 
 }
 
@@ -68,12 +79,13 @@
 
     width: 65%;
     margin-bottom: 2em;
+    margin-left: 2em;
 
 }
 
 .parcours-right-part p {
 
-    color: #525659;
+    color: grey;
 
 }
 
@@ -88,6 +100,7 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    
 
 }
 
@@ -101,7 +114,7 @@
 .cv-view{
 
     width: 15%;
-    height: 80%;
+    height:70%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -119,7 +132,7 @@
 .cv-download{
 
     width: 15%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -139,10 +152,56 @@
 
 .skills {
     display: flex;
-    background-color: white;
+    background-color: black;
     width: 98%;
     margin: auto;
     margin-bottom: 1em;
+    flex-wrap: wrap;
+
+}
+
+.skills-title {
+
+    color: white;
+    margin: 1em;
+    width: 100%
+
+}
+
+.skills-left-part{
+    display: flex;
+    width: 75%;
+    height: 50%;
+    margin: 1em;
+
+}
+
+.skills-right-part {
+
+    width: 20%;
+    max-height: 15em;
+
+
+}
+
+.skills-right-part h1 {
+
+    color: white;
+
+}
+
+.skills-list {
+
+    font-size: 2em;
+    margin-right: 2em;
+    color: white;
+
+}
+
+.skills-list2 {
+
+    font-size: 2em;
+    color: white;
 
 }
 
@@ -150,10 +209,48 @@
 
 .projects {
     display: flex;
-    background-color: white;
+    background: linear-gradient(0deg,  #000000 30%, #ffffff 0%);
     width: 98%;
     margin: auto;
     margin-bottom: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.project-title {
+
+    width: 100%;
+    margin: 1em;
+
+}
+
+.project-card {
+
+    width: 20%;
+    height: 100%;
+    margin-bottom: 3em;
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.project-card img {
+
+    width: 100%;
+
+}
+
+.project-card-body h2{
+
+    font-size: 1.5em;
+
+}
+
+.project-card-body p{
+
+    font-size: 1em;
 
 }
 
@@ -165,7 +262,7 @@
     background-color: black;
     width: 98%;
     margin: auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     flex-wrap: wrap;
 
 }
@@ -188,6 +285,7 @@
 
     width: 30%;
     margin-left: 1em;
+    margin-bottom: 2em;
 
 }
 
@@ -196,6 +294,7 @@
     width: 90%;
     margin-top: 0.8em;
     height: 90%;
+    margin-bottom: 2em;
 
 }
 
@@ -207,6 +306,7 @@
     width: 55%;
     justify-content: center;
     border: solid, white;
+    margin-bottom: 2em;
     
 
 }
@@ -234,7 +334,6 @@ h1:hover {
 h1 {
 
      font-size: 3em;
-     color:#525659;
 
 }
  
@@ -459,12 +558,7 @@ body{
 
 
 
-.card-img-top{
-    text-align: center;
-    width: 25%;
-    border-radius: 10%;
-    
-}
+
 
 p img {
 
