@@ -198,6 +198,12 @@ html {
 
 }
 
+.skills-list li {
+
+    line-height: 1.5em;
+
+}
+
 .skills-list2 {
 
     font-size: 2em;
@@ -205,11 +211,17 @@ html {
 
 }
 
+.skills-list2 li {
+
+    line-height: 1.5em;
+
+}
+
 /* ====================================== PROJECT PART ============================================================*/
 
 .projects {
     display: flex;
-    background: linear-gradient(0deg,  #000000 30%, #ffffff 0%);
+    background: linear-gradient(0deg,  #000000 35%, #ffffff 0%);
     width: 98%;
     margin: auto;
     margin-bottom: 1em;
@@ -229,10 +241,17 @@ html {
 
     width: 20%;
     height: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     background-color: white;
     margin-left: 1em;
     margin-right: 1em;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.project-card:hover {
+
+    transform: scale(1.05);
 
 }
 
@@ -254,6 +273,21 @@ html {
 
 }
 
+.project-view-all {
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+    justify-content: flex-end;
+
+}
+
+.project-view-all button {
+
+    margin-right: 2em;
+
+}
+
 
 /* ====================================== CONTACT PART ============================================================*/
 
@@ -264,6 +298,7 @@ html {
     margin: auto;
     margin-bottom: 2em;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
@@ -315,6 +350,12 @@ html {
 
     color: white
 
+}
+
+.card-text :hover {
+
+    color: red;
+   
 }
 
 .card-body {
