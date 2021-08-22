@@ -10,6 +10,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1500px;
+    margin: auto;
 
 }
 
@@ -69,7 +71,7 @@ html {
 .parcours-title {
 
     width: 100%;
-    margin: 1em;
+    margin: 3em;
 
 }
 
@@ -80,6 +82,7 @@ html {
     margin-left: 1em;
     margin-bottom: 2em;
     margin-right: 2em;
+    margin-left: 3em;
 
 }
 
@@ -92,9 +95,10 @@ html {
 
 .parcours-right-part {
 
-    width: 65%;
+    width: 60%;
     margin-bottom: 2em;
     margin-left: 2em;
+    margin-right: 3em;
 
 }
 
@@ -186,6 +190,7 @@ html {
     display: flex;
     background-color: black;
     width: 98%;
+    height: 25em;
     margin: auto;
     margin-bottom: 1em;
     flex-wrap: wrap;
@@ -195,23 +200,28 @@ html {
 .skills-title {
 
     color: white;
-    margin: 1em;
+    margin: 3em;
     width: 100%
 
 }
 
 .skills-left-part{
     display: flex;
-    width: 75%;
+    width: 60%;
     height: 50%;
     margin: 1em;
-
+    border-right: solid #525659 2px;
+    margin-left:3em;
 }
 
 .skills-right-part {
 
-    width: 20%;
+    width: 30%;
     max-height: 15em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 3em;
+    
 
 
 }
@@ -219,6 +229,7 @@ html {
 .skills-right-part h1 {
 
     color: white;
+    margin-bottom: 1em;
 
 }
 
@@ -227,6 +238,7 @@ html {
     font-size: 2em;
     margin-right: 2em;
     color: white;
+    
 
 }
 
@@ -240,10 +252,24 @@ html {
 
     font-size: 2em;
     color: white;
+    margin-right: 2em;
 
 }
 
 .skills-list2 li {
+
+    line-height: 1.5em;
+
+}
+
+.skills-list3 {
+
+    font-size: 2em;
+    color: white;
+
+}
+
+.skills-list3 li {
 
     line-height: 1.5em;
 
@@ -265,18 +291,18 @@ html {
 .project-title {
 
     width: 100%;
-    margin: 1em;
+    margin: 3em;
 
 }
 
 .project-card {
 
-    width: 20%;
+    width: 18%;
     height: 100%;
     margin-bottom: 1.5em;
     background-color: white;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
     box-shadow: 5px 5px 5px gray;
 
 }
@@ -316,7 +342,9 @@ html {
 
 .project-view-all button {
 
+    margin-top: 1em;
     margin-right: 2em;
+    margin-bottom: 3em;
 
 }
 
@@ -337,6 +365,7 @@ html {
 
     width: 100%;
     margin: 1em;
+    margin: 3em;
 
 }
 
@@ -350,8 +379,9 @@ html {
 .contact-picture {
 
     width: 30%;
-    margin-left: 1em;
+    margin-left: 3em;
     margin-bottom: 2em;
+    border-right: solid #525659 2px;
 
 }
 
