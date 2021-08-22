@@ -1,14 +1,284 @@
+/* ====================================== WRAPPER PART ============================================================*/
 
 .wrapper{
-background-image: url("../assets/bandeau2.jpg");
-height: 100%;
-width: 100%;
-background-position: center;
-background-repeat: no-repeat;
+
+    background-color: #525659;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-.navbar {
+/* ====================================== BANDEAU PART ============================================================*/
+
+.bandeau {
+    
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1em;
+
+}
+
+.bandeau svg {
+
+    width: 100%;
+
+}
+
+/* ====================================== PARCOURS PART ============================================================*/
+
+.parcours {
+
+    background-color: black;
+    display: flex;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    
+
+}
+
+.parcours h1 {
+
+    color: white;
+
+}
+
+.parcours-title {
+
+    width: 100%;
+    margin: 1em;
+
+}
+
+
+.parcours-left-part {
+
+    width: 25%;
+    margin-left: 1em;
+    margin-bottom: 2em;
+
+}
+
+.parcours-right-part {
+
+    width: 65%;
+    margin-bottom: 2em;
+
+}
+
+.parcours-right-part p {
+
+    color: #525659;
+
+}
+
+.parcours-right-part a {
+
+    color: white;
+
+}
+
+.parcours-cv {
+
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.logo-cv {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.cv-view{
+
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cv-view a{
+
+    height: 50%;
+    margin-bottom: 1.5em;
+    
+}
+
+.cv-download{
+
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cv-download a {
+
+    height: 50%;
+    margin-bottom: 1.5em;
+
+}
+
+/* ====================================== SKILLS PART ============================================================*/
+
+
+.skills {
+    display: flex;
+    background-color: white;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1em;
+
+}
+
+/* ====================================== PROJECT PART ============================================================*/
+
+.projects {
+    display: flex;
+    background-color: white;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1em;
+
+}
+
+
+/* ====================================== CONTACT PART ============================================================*/
+
+.contact {
+    display: flex;
+    background-color: black;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+
+}
+
+.contact-title {
+
+    width: 100%;
+    margin: 1em;
+
+}
+
+.contact-title h1 {
+
+    color: white;
+    
+
+}
+
+.contact-picture {
+
+    width: 30%;
+    margin-left: 1em;
+
+}
+
+.contact-picture img {
+
+    width: 90%;
+    margin-top: 0.8em;
+    height: 90%;
+
+}
+
+.contact-card {
+
+    background-color: black;
+    height: 50%;
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    border: solid, white;
+    
+
+}
+
+.contact-card a {
+
+    color: white
+
+}
+
+.card-body {
+
+    width: 75%;
+    font-size: 0.8em;
+    margin-top: 5em;
+
+}
+
+h1:hover {
+
+    color: white
+
+}
+ 
+h1 {
+
+     font-size: 3em;
+     color:#525659;
+
+}
+ 
+button {
+
+     height: 3em;
+     margin-left: 3.5em;
+     width: 10em;
+     
+}
+ 
+button:hover {
+
+     transform: scale(1.25);
+
+}
+ 
+ a {
+
+     text-decoration: none;
+     color: black;
+
+ }
+
+
+
+p{
+
+    font-size: 2em;
+    color:grey
+
+}
+
+
+
+.skills-slider img{
+
+    width:30%;
+
+}
+
+
+
+/* .navbar {
     width: 95%;
     padding-top: 2em;
     margin-left: 2em;
@@ -33,6 +303,9 @@ background-repeat: no-repeat;
     color: white;
 }
 
+/* .bio{
+    height: 50%;
+} */
 
 nav ul {
     padding: 0;
@@ -46,73 +319,33 @@ nav ul {
 nav li{
     list-style: none;
     
-}
+} */
 
-.text-defil{
+/* .text-defil{
     text-align: center;
 }
 
 
 
-h1:hover{
-   color: white
-}
-
-h1{
-    font-size: 3em;
-    color:grey;
-}
-
-button{
-    height: 3em;
-    margin-left: 3.5em;
-    width: 10em;
-    
-}
-
-button:hover{
-    transform: scale(1.25);
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 body{
   margin:0;
   width:100%; 
-  height:100vh;
+  height:20%;
   overflow:hidden;
   background:hsla(0, 5%, 5%, 1);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(to right top, hsla(0, 5%,15%, 0.5), hsla(0, 5%, 5%,1));
-}
+} */
 
 
 
-.bio{
-    height: 50%;
-}
 
-p{
-    font-size: 2em;
-    color:grey
-}
-
-.skills-list{
-    list-style-type: none;
-    font-size: 2em;
-    color: white;
-}
-
-.skills-slider img{
-    width:20%;
-}
 
 
 .wrapper-about{
@@ -139,7 +372,7 @@ p{
     justify-content: center;
     text-align: center;
     margin-right: 2em;
-    background-color: rgba(142, 145, 152, 0.5);
+    background-color: black;
     
 }
 
@@ -164,15 +397,7 @@ p{
     display: flex;
 }
 
-.cv-view{
-width: 15%;
-height: 100%;
-display: flex;
-flex-direction: column;
-text-align: center;
-align-items: center;
 
-}
 
 .cv-view button{
 
@@ -182,15 +407,6 @@ align-items: center;
 
 }
 
-.cv-download{
-width: 15%;
-height: 100%;
-display: flex;
-flex-direction: column;
-text-align: center;
-align-items: center;
-
-}
 
 .cv-download button{
     margin: auto;
@@ -223,35 +439,12 @@ align-items: center;
 }
 
 
-
-.logo-cv{
-    width: 35%;
-    height: 35%;
-    margin-bottom: 2em;
-}
-
-
-
-
 .wrapper-contact{
     display: flex;
     justify-content: center;
     height: 100%;
 }
 
-.contact-card{
-
-    height: 50%;
-    display: flex;
-    width: 55%;
-    justify-content: center;
-    background-color: white;
-    margin: 3em;
-    padding-top: 3em;
-    padding-left: 1em;
-    border: solid;
-
-}
 
 .picture-card{
     padding: 0.5em;
@@ -264,11 +457,6 @@ align-items: center;
     border: solid
 }
 
-.card-body{
-    padding: 0;
-    width: 75%;
-    font-size: 0.8em;
-}
 
 
 .card-img-top{
@@ -291,4 +479,6 @@ p img {
 
 .navbar-li-home{
     width: 5%;
-}
+} 
+
+/* viewBox="160 -250 600 500" */

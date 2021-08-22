@@ -5,15 +5,15 @@
 {% block body %}
 
 
-    <div class="bio">
+    <div class="bandeau">
 
-        <svg width="100%" height="100%" viewBox="160 -250 600 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 
             <path id="path">
                 <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="7s" begin="0s" repeatCount="indefinite"/>
             </path>
 
-            <text class="texte-defil" font-size="60" font-family="Montserrat" >
+            <text class="texte-defil" font-size="60" font-family="Montserrat" fill='hsla(0, 0%, 100%, 1)' >
                 <textPath xlink:href="#path">    Hello I'm Charlie, I'm web developper
                 </textPath>
             </text>
@@ -23,28 +23,153 @@
 
     </div>
 
-    <div class="cv">
+    <div class="parcours">
 
-        <div class="cv-view">
+        <div class="parcours-title">
+        
+            <h1>Mon Parcours</h1>
 
-            <a href="../public/assets/cv_charliebauduin2021.pdf"><img class="logo-cv" src="../public/assets/logo-cv.png" alt="logo-cv"></a>
-            <a href="../public/assets/cv_charliebauduin2021.pdf"> <button class="view-btn">view CV</button></a> 
+        </div>
+        
+
+        <div class="parcours-left-part">
+
+            <img src="../public/assets/parcours.jpg" alt="image-parcours">
+
+        </div>
+
+        <div class="parcours-right-part">
+
+            <p>Hello World ! <br/> 
+            I'm Charlie, I'm a young web back end developper.<br/>
+
+            Well-organised person, passionate and really motivate and I'm looking for my first experience<br/>
+            Fan of Sport, Poker, Chess and Travel<br/>
+
+            Specialized on Symfony due to my formation, I also train on Javascript vanilla and React.<br/>
+
+            I hope you'll like my different side projects. <br/>
+
+            Don't hesitate to <a href="#contact">contact me</a>!
+            </p>
+
         
         </div>
 
-        <div class="cv-download">
+        <div class="parcours-cv">
 
-            <a href="../public/assets/cv_charliebauduin2021.pdf" download="CV"><img class="logo-cv" src="../public/assets/logo-cv.png" alt="logo-cv"></a>
-            <a href="../public/assets/cv_charliebauduin2021.pdf" download="CV"> <button class="download-btn"> Download</button></a>
+            <div class="cv-view">
+
+                <a href="../public/assets/cv_charliebauduin2021.pdf"><img class="logo-cv" src="../public/assets/logo-cv.png" alt="logo-cv"></a>
+                <a href="../public/assets/cv_charliebauduin2021.pdf"> <button class="view-btn">view CV</button></a> 
+            
+            </div>
+
+            <div class="cv-download">
+
+                <a href="../public/assets/cv_charliebauduin2021.pdf" download="CV"><img class="logo-cv" src="../public/assets/logo-cv.png" alt="logo-cv"></a>
+                <a href="../public/assets/cv_charliebauduin2021.pdf" download="CV"> <button class="download-btn"> Download</button></a>
+            
+            </div>
         
         </div>
+
+        
         
 
     </div>
 
+    <div class="skills">
 
+    <h1>Mes Compétences</h1>
+
+        <div class="right-part">
+
+            <h1>Skills</h1>
+
+            <div class="skills-slider">
+
+
+                <figure class="img-slider">
+                    
+
+                    
+                </figure>
+
+            
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="projects"> 
+
+        <div class="card" style="width: 18rem;">
+
+            <img class="card-img-top" src="../public/assets/projet.png" alt="Card image cap">
+
+        
+
+            <div class="card-body">
+
+                <h5 class="card-title">Card title</h5>
+
+                <p class="card-text">Projet Lorem Ipsum </p>
+                <a href="#" class="btn btn-primary">voir le code</a>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+
+        <div class="contact-title">
+        
+            <h1>Contact</h1>
+        
+        </div>
+
+        <div class="contact-picture">
+
+            <img src="../public/assets/contact.jpg" alt="contact-picture">
+        
+        </div>
+
+        <div class="contact-card">
+
+            <div class="picture-card">
+            
+                <img class="card-img-top" src="../public/assets/photo1.jpg" alt="Card image cap">
+            
+            </div>
+
+            <div class="card-body">
+
+            
+            
+                <p class="card-text"><img src="../public/assets/mail.jpg" alt="mail-picto"> : <a href="mailto:bauduincharlie@gmail.com ">bauduincharlie@gmail.com </a></p>
+                <p class="card-text"><img src="../public/assets/tel.jpg" alt="tel-picto"> : <a href="telto:0664758199"> 06 64 75 81 99</a></p>
+                <p class="card-text"><img src="../public/assets/github.svg" alt="github-picto"> : <a href="https://github.com/Charliebauduin ">https://github.com/Charliebauduin </a> </p>
+                <p class="card-text"><img src="../public/assets/linkedin.png" alt="linkedin-picto"> : <a href="https://www.linkedin.com/in/charlie-bauduin ">https://www.linkedin.com/in/charlie-bauduin  </a></p>
+                <p class="card-text"><img src="../public/assets/Twitter.png" alt="twitter-picto"> : <a href="https://www.https://twitter.com/Charlie44787205">https://twitter.com/Charlie44787205  </a></p>
+
+            </div>
+
+        </div>
     
 
-</div>
+
+    </div>
+    
+
+{% endblock %}
+
+{% block javascripts %}
+
+<script src="{{asset('../public/js/scripts.js')}}"></script>
 
 {% endblock %}

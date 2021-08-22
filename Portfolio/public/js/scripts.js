@@ -31,7 +31,7 @@ let app = {
         
         
         
-    displayElement: function(array){
+    displayElement: function(){
 
         
         
