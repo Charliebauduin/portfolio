@@ -28,7 +28,7 @@ html {
     margin: auto;
     margin-bottom: 1em;
     justify-content: space-around;
-
+    box-shadow: 5px 5px 5px grey;
     
 
 }
@@ -58,6 +58,7 @@ html {
     margin: auto;
     margin-bottom: 1em;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 5px grey;
     
 
 }
@@ -183,6 +184,16 @@ html {
 
 }
 
+@media  only screen and (max-width: 375px) {
+
+    .parcours {
+
+        display: none;
+
+    }
+    
+}
+
 /* ====================================== SKILLS PART ============================================================*/
 
 
@@ -194,6 +205,7 @@ html {
     margin: auto;
     margin-bottom: 1em;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 5px grey;
 
 }
 
@@ -285,6 +297,7 @@ html {
     margin-bottom: 1em;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px grey;
 
 }
 
@@ -358,6 +371,7 @@ html {
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px grey;
 
 }
 
